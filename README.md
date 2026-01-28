@@ -68,3 +68,8 @@ This project demonstrates practical experience in:
 - Radiation pattern evaluation
 
 The model is intended for simulation and academic demonstration purposes.
+
+
+## Design Methodology
+
+The analytical background and initial dimension calculations used in this project are documented in [design_notes.md](design_notes.md).
