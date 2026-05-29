@@ -88,6 +88,14 @@ The electric field distribution shows energy concentration near the feed region 
 
 ![E-Field](results/E_Field.gif)
 
+## Key Results
+
+| Parameter | Value |
+|------------|------------|
+| Resonant Frequency | 12.62 GHz |
+| Return Loss | < -40 dB |
+| Input Impedance | 49.72 Ω |
+| Frequency Band | Ku-band |
 
 ## Notes
 
