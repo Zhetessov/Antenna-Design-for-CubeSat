@@ -3,7 +3,14 @@
 This repository contains the simulation results of a microstrip patch antenna designed and analyzed using **Ansys HFSS**.  
 The project focuses on antenna geometry design, impedance matching, and radiation characteristics at the target frequency.
 
----
+## Highlights
+
+- Patch antenna design for CubeSat applications
+- Electromagnetic simulation using Ansys HFSS
+- S11 and impedance matching analysis
+- 3D radiation pattern evaluation
+- Electric field distribution visualization
+- Ku-band operation at 12.62 GHz
 
 ## Antenna Geometry
 
@@ -16,6 +23,10 @@ The project focuses on antenna geometry design, impedance matching, and radiatio
 The geometry was designed to operate in the **Ku-band** with emphasis on compact patch elements and proper impedance matching.
 
 ---
+
+### Antenna Geometry
+
+![Geometry](geometry/Antenna_Geometry1.png)
 
 ## Materials and Boundary Conditions
 
@@ -58,6 +69,25 @@ This value is close to the standard **50 Ω**, confirming proper impedance match
 The electric field distribution shows energy concentration near the feed region and patch elements, confirming correct excitation and power transfer from the feed to the radiating structure.
 
 ---
+
+## Results
+
+### S11 Response
+
+![S11](results/S11.png)
+
+### Input Impedance
+
+![Impedance](results/Impedance.png)
+
+### 3D Radiation Pattern
+
+![Radiation](results/Radiation_3D.png)
+
+### Electric Field Distribution
+
+![E-Field](results/E_Field.gif)
+
 
 ## Notes
 
