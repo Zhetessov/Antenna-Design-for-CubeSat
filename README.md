@@ -1,7 +1,7 @@
 # Patch Antenna Design and Simulation in HFSS
 
-This repository contains the simulation results of a microstrip patch antenna designed and analyzed using **Ansys HFSS**.  
-The project focuses on antenna geometry design, impedance matching, and radiation characteristics at the target frequency.
+This repository contains the design and simulation results of a microstrip patch antenna developed for CubeSat communication systems using Ansys HFSS.
+The project focuses on antenna geometry optimization, impedance matching, and radiation performance in the Ku-band.
 
 ## Highlights
 
@@ -11,6 +11,15 @@ The project focuses on antenna geometry design, impedance matching, and radiatio
 - 3D radiation pattern evaluation
 - Electric field distribution visualization
 - Ku-band operation at 12.62 GHz
+
+## Key Results
+
+| Parameter | Value |
+|------------|------------|
+| Resonant Frequency | 12.62 GHz |
+| Return Loss | < -40 dB |
+| Input Impedance | 49.72 Ω |
+| Frequency Band | Ku-band |
 
 ## Antenna Geometry
 
@@ -24,7 +33,7 @@ The geometry was designed to operate in the **Ku-band** with emphasis on compact
 
 ---
 
-### Antenna Geometry
+### Geometry Model
 
 ![Geometry](geometry/Antenna_Geometry1.png)
 
@@ -87,15 +96,6 @@ The electric field distribution shows energy concentration near the feed region 
 ### Electric Field Distribution
 
 ![E-Field](results/E_Field.gif)
-
-## Key Results
-
-| Parameter | Value |
-|------------|------------|
-| Resonant Frequency | 12.62 GHz |
-| Return Loss | < -40 dB |
-| Input Impedance | 49.72 Ω |
-| Frequency Band | Ku-band |
 
 ## Notes
 
